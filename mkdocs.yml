@@ -1,0 +1,23 @@
+site_name: Aegis API
+site_description: FastAPI microservice with DDD/CQRS architecture
+repo_url: https://github.com/LaplacesD/aegis-api
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - content.code.copy
+    - navigation.sections
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - API Reference: api.md
